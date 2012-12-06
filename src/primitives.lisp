@@ -197,10 +197,10 @@ supports takes advantage of this optimization."
       (:short . :short)
       (:pointer-void . (:pointer :void))
       (:cstring . (:reference-pass (:ef-mb-string :external-format
-                                    (:latin-1 :eol-style :lf))
+                                    (:utf-8 :eol-style :lf))
                    :allow-null t))
       (:cstring-returning . (:reference (:ef-mb-string :external-format
-                                         (:latin-1 :eol-style :lf))
+                                         (:utf-8 :eol-style :lf))
                              :allow-null t))
       (:byte . :byte)
       (:unsigned-byte . (:unsigned :byte))
