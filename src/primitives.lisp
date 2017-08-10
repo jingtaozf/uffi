@@ -200,7 +200,7 @@ supports takes advantage of this optimization."
                                     (:utf-8 :eol-style :lf))
                    :allow-null t))
       (:cstring-returning . (:reference (:ef-mb-string :external-format
-                                         (:utf-8 :eol-style :lf))
+                                         (:latin-1 :eol-style :lf))
                              :allow-null t))
       (:byte . :byte)
       (:unsigned-byte . (:unsigned :byte))
